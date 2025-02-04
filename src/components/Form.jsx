@@ -45,7 +45,7 @@ export const Form = ({ type }) => {
                     </div>
                     <div className='flex flex-col justify-center gap-5 items-center '>
                         <div className={`${type === "login" ? "hidden" : "block"}`}>
-                            <button className='bg-blue-500 text-white flex justify-center py-2 rounded-md'>Sign up</button></div>
+                            <button className='bg-blue-500 text-white flex justify-center py-2 rounded-md px-2'>Sign up</button></div>
                         < div className={`${type === "signup" ? "hidden" : "block"}`}>
                             <div className='flex justify-center items-center flex-col'>
                                 <button className='bg-blue-500 text-white flex justify-center py-2 rounded-md px-2'>Log in</button>
