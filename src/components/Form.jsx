@@ -12,7 +12,7 @@ export const Form = ({ type }) => {
         <div className='flex justify-center items-center h-screen bg-black text-gray-500 '>
             <div>
 
-                <form action="#" className='flex flex-col gap-3 w-full items-center p-10 bg-black border border-gray-500 box-md mb-5 shadow-white shadow-lg '>
+                <form action="#" className='flex flex-col gap-3 w-full items-center p-10 bg-black border border-gray-500 box-md mb-5 shadow-white shadow-sm '>
                     {/* <FloatingLabelInput
                         id="expense-input"
                         label="Enter Expense"
@@ -78,7 +78,7 @@ export const Form = ({ type }) => {
                     </div>
                 </form>
 
-                <div className='flex justify-center border border-gray-500 box-md shadow-white shadow-lg h-10 items-center'>
+                <div className='flex justify-center border border-gray-500 box-md shadow-white shadow-sm h-10 items-center'>
                     <div className={`${type === "signup" ? "hidden" : "block text-white"}`}>
                         Don't have an account? <Link className=" text-blue-500" to={"/signup"}>Sign   up</Link>
                     </div>
