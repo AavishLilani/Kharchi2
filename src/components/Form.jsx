@@ -48,7 +48,7 @@ export const Form = ({ type }) => {
                             <button className='bg-blue-500 text-white flex justify-center py-2 rounded-md'>Sign up</button></div>
                         < div className={`${type === "signup" ? "hidden" : "block"}`}>
                             <div className='flex justify-center items-center flex-col'>
-                                <button className='bg-blue-500 text-white flex justify-center py-2 rounded-md'>Log in</button>
+                                <button className='bg-blue-500 text-white flex justify-center py-2 rounded-md px-2'>Log in</button>
                                 <div className='flex items-center my-4 w-full'>
                                     <hr className='w-full border-t border-gray-300' />
                                     <span className='px-2 text-gray-500'>OR</span>
