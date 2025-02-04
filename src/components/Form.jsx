@@ -14,14 +14,14 @@ export const Form = ({ type }) => {
             <div>
 
                 <form action="#" className='flex flex-col gap-3 w-full items-center p-10 bg-black border border-gray-500 box-md mb-5 shadow-sm '>
-                    <FloatingLabelInput
+{/*                     <FloatingLabelInput
                         id="expense-input"
                         label="Enter Expense"
                         type='password'
                         value={inputValue}
                         onChange={(e) => setInputValue(e.target.value)}
-                    />
-                    <div className='flex justify-center'>
+                    />*/}
+                     <div className='flex justify-center'> 
                         <img src={prototype2} alt='Logo' className='mb-6' width={250} /></div>
                     < div className={`${type === "login" ? "hidden" : "block"}`}>
                         <div className='flex justify-center items-center mb-6 font-bold'>Sign up to manage your MONEY</div>
