@@ -38,7 +38,7 @@ export const Form = ({ type }) => {
 
                     <div className='flex flex-col gap-5 items-center '>
                         <div>
-                            <input type="text" placeholder='Name' className={`${type === "login" ? "hidden" : "block p-2 border border-grey-500 rounded-md bg-gray-300"}`} />
+                            <input type="text" placeholder='Name' className={`${type === "login" ? "hidden" : "block p-2 border border-grey-500 rounded-md bg-gray-700"}`} />
                         </div>
                         <div>
                             <input type='email' placeholder='Email' className='p-2 border border-grey-500 rounded-md bg-black' />
