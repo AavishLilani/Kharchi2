@@ -12,7 +12,7 @@ export const Form = ({ type }) => {
         <div className='flex justify-center items-center h-screen bg-black text-gray-500 '>
             <div>
 
-                <form action="#" className='flex flex-col gap-3 w-full items-center p-10 bg-black border border-gray-500 box-md mb-5 shadow-lg '>
+                <form action="#" className='flex flex-col gap-3 w-full items-center p-10 bg-black border border-gray-500 box-md mb-5 shadow-white shadow-lg '>
                     {/* <FloatingLabelInput
                         id="expense-input"
                         label="Enter Expense"
