@@ -78,7 +78,7 @@ export const Form = ({ type }) => {
                     </div>
                 </form>
 
-                <div className='flex justify-center border border-gray-500 box-md shadow-sm h-10 items-center'>
+                <div className='flex justify-center border border-gray-500 box-md shadow-gray-500 shadow-sm h-10 items-center'>
                     <div className={`${type === "signup" ? "hidden" : "block text-white"}`}>
                         Don't have an account? <Link className=" text-blue-500" to={"/signup"}>Sign   up</Link>
                     </div>
