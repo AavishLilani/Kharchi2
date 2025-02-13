@@ -2,7 +2,15 @@
     "version": 2,
     "routes": [
       {
-        "src": "/.*",
+        "src": "/",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/signin",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/signup",
         "dest": "/index.html"
       }
     ]
