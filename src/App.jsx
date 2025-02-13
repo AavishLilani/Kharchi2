@@ -5,11 +5,12 @@ import SignupPage from './pages/SignupPage'
 
 
 function App() {
+  console.log("inside app")
   return (
 
 
     <Routes>
-      <Route path='/' element={<Loginpage />} />
+      <Route path='/signin' element={<Loginpage />} />
       <Route path='/signup' element={<SignupPage />} />
     </Routes>
   )
