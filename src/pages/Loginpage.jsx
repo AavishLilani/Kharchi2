@@ -5,7 +5,7 @@ import Form from '../components/Form';
 const Loginpage = () => {
     console.log("Login");
     return (
-        <Form type="login" />
+        <Form type="signin" />
     )
 }
 
